@@ -158,7 +158,7 @@ function QuanLyCheckIn() {
 
             {/* Footer (Pagination) */}
             <div className="row" style={{marginTop : "10px" , paddingBottom : "5px"}}>
-              <div className="col-12">
+              <div className="col-12" >
                 <Pagination
                   pageNumber={pageNumber}
                   totalPages={totalPages}
@@ -193,7 +193,7 @@ function QuanLyCheckIn() {
             </div>
             <div
               style={{
-                width: "250px",
+                width: "260px",
                 height: "385px",
                 backgroundColor: "#fff",
                 borderRadius: "6px",
@@ -206,7 +206,7 @@ function QuanLyCheckIn() {
             >
               <div className="stranger" style={{ padding: "10px" }}>
                 <span>
-                  <b>Người lạ</b>
+                  <b >Người lạ</b>
                 </span>
                 <span className="red-stranger">Chưa xác nhận</span>
               </div>
@@ -240,7 +240,7 @@ function QuanLyCheckIn() {
                         width: "100%",
                       }}
                     >
-                      <div>Thời gian:</div>
+                      <div style={{fontSize : "13px"}}>Thời gian:</div>
                       <AiTwotoneExclamationCircle className="icon-stranger" />
                     </div>
                   </div>

@@ -1,0 +1,98 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.list-member {
+    margin-top: 10px;
+    padding: 10px 35px 0px 30px;
+    border: 2px outset rgba(194, 194, 194, 0.582);
+    /* box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2); */
+    box-shadow: 12px 5px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.search-list {
+    margin-bottom: 15px;
+}
+
+.frame {
+    margin-top: 10px;
+    padding-right: 30px;
+}
+
+.table-member {
+    padding-bottom: 20px;
+}
+
+.custom-col{
+    width: 3.33333333% !important;
+}
+
+.header .col-4,
+.header .col-3,
+.header .col-2,
+.header .col-1 {
+  font-weight: bold;
+  font-size: 17px !important; 
+}
+
+.row.table-member {
+    border-top: 1px solid #c2c2c2;
+    border-bottom: 1px solid #c2c2c2;
+    border-right: 1px solid #c2c2c2;
+    font-size: 17px;
+    padding-bottom: 0px;
+}
+.row.table-member div{
+    border-left: 0.8pt solid #7e7c7c;
+    padding: 7px;
+}
+.search-member{
+    width: 60%;
+    border: 1px solid #c2c2c2;
+    border-radius: 4px;
+    overflow: hidden;
+    font-size: 14px;
+}
+.btn-add{
+    height: 35px;
+    color: #fff;
+    background-color: rgb(240, 136, 0);  
+    border: none;
+    border-radius: 6px;
+    overflow: hidden;
+    font-size: 13px;
+    padding: 2px 12px 2px 7px;
+}
+
+
+.btn-link {
+    background-color: #b3e2d5;
+    color: rgb(11, 114, 11);
+    border: none;
+    padding: 0px 10px 8px 10px;
+    border-radius: 6px;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.btn-edit {
+    background-color: #fad0ea;
+    color: rgb(223, 111, 6);
+    border: none;
+    padding: 6px 12px 9.5px 12px;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-right: 5px;
+}
+.btn-delete {
+    background-color: #f38fcd;
+    color: rgb(247, 50, 171);
+    border: none;
+    padding: 6px 12px 9.5px 12px;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-right: 5px;
+}

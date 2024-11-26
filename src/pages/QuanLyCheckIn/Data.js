@@ -3,6 +3,7 @@ import avatar from "../../assets/istockphoto-1337144146-612x612.jpg"
 const employeeData = [
     {
       id: 1,
+      no: 1,
       avatar : avatar,
       name:  "Đặng Mạnh Hùng",
       company: "Thăng Long",
@@ -12,6 +13,7 @@ const employeeData = [
     },
     {
       id: 2,
+      no: 2,
       avatar : avatar,
       name:  "Phạm Thị Liên",
       company: "Thăng Long",
@@ -21,6 +23,7 @@ const employeeData = [
     },
     {
       id: 3,
+      no: 3,
       avatar : avatar,
       name:  "Nguyễn Thị Nhung",
       company: "Thăng Long",
@@ -30,6 +33,7 @@ const employeeData = [
     },
     {
       id: 4,
+      no: 4,
       avatar : avatar,
       name:  "Trần Thị Quỳnh Anh",
       company: "Thăng Long",
@@ -39,6 +43,7 @@ const employeeData = [
     },
     {
       id: 5,
+      no: 5,
       avatar : avatar,
       name:  "Đỗ Ngọc Hoàng",
       company: "Thăng Long",
@@ -48,6 +53,7 @@ const employeeData = [
     },
     {
       id: 6,
+      no: 6,
       avatar : avatar,
       name:  "Lê Thị Thùy Linh",
       company: "Thăng Long",
@@ -57,6 +63,7 @@ const employeeData = [
     },
     {
       id: 7,
+      no: 7,
       avatar : avatar,
       name:  "Bùi Nguyễn Hải Anh",
       company: "Thăng Long",
@@ -66,6 +73,7 @@ const employeeData = [
     },
     {
       id: 8,
+      no: 8,
       avatar : avatar,
       name:  "Phạm Văn Minh",
       company: "Thăng Long",
@@ -75,6 +83,7 @@ const employeeData = [
     },
     {
       id: 9,
+      no: 9,
       avatar : avatar,
       name:  "Nguyễn Thị Liêm",
       company: "Thăng Long",
@@ -84,6 +93,7 @@ const employeeData = [
     },
     {
       id: 10,
+      no: 10,
       avatar : avatar,
       name:  "Nguyễn Hữu Hoàn",
       company: "Thăng Long",
@@ -93,6 +103,7 @@ const employeeData = [
     },
     {
         id: 11,
+        no: 11,
         avatar : avatar,
         name:  "Nguyễn Thế Anh",
         company: "Thăng Long",
@@ -102,6 +113,7 @@ const employeeData = [
       },
       {
         id: 12,
+        no: 12,
         avatar : avatar,
         name:  "Vương Công Minh",
         company: "Thăng Long",
@@ -111,6 +123,7 @@ const employeeData = [
       },
       {
         id: 13,
+        no: 13,
         avatar : avatar,
         name:  "Nguyễn Thị Liêm",
         company: "Thăng Long",
@@ -120,6 +133,7 @@ const employeeData = [
       },
       {
         id: 14,
+        no: 14,
         avatar : avatar,
         name:  "Nguyễn Thị Liêm",
         company: "Thăng Long",
@@ -129,6 +143,7 @@ const employeeData = [
       },
       {
         id: 15,
+        no: 15,
         avatar : avatar,
         name:  "Nguyễn Thị Liêm",
         company: "Thăng Long",
@@ -138,6 +153,7 @@ const employeeData = [
       },
       {
         id: 16,
+        no: 16,
         avatar : avatar,
         name:  "Nguyễn Thị Liêm",
         company: "Thăng Long",
@@ -147,6 +163,7 @@ const employeeData = [
       },
       {
         id: 17,
+        no: 17,
         avatar : avatar,
         name:  "Nguyễn Thị Liêm",
         company: "Thăng Long",
@@ -156,6 +173,7 @@ const employeeData = [
       },
       {
         id: 18,
+        no: 18,
         avatar : avatar,
         name:  "Nguyễn Thị Liêm",
         company: "Thăng Long",
@@ -165,6 +183,7 @@ const employeeData = [
       },
       {
         id: 19,
+        no: 19,
         avatar : avatar,
         name:  "Nguyễn Thị Liêm",
         company: "Thăng Long",
@@ -174,6 +193,7 @@ const employeeData = [
       },
       {
         id: 20,
+        no: 20,
         avatar : avatar,
         name:  "Nguyễn Thị Liêm",
         company: "Thăng Long",
@@ -183,6 +203,7 @@ const employeeData = [
       },
       {
         id: 21,
+        no: 21,
         avatar : avatar,
         name:  "Nguyễn Thị Liêm",
         company: "Thăng Long",
@@ -192,6 +213,7 @@ const employeeData = [
       },
       {
         id: 22,
+        no: 22,
         avatar : avatar,
         name:  "Nguyễn Thị Liêm",
         company: "Thăng Long",
@@ -201,6 +223,7 @@ const employeeData = [
       },
       {
         id: 23,
+        no: 23,
         avatar : avatar,
         name:  "Nguyễn Thị Liêm",
         company: "Thăng Long",
@@ -210,6 +233,7 @@ const employeeData = [
       },
       {
         id: 24,
+        no: 24,
         avatar : avatar,
         name:  "Nguyễn Thị Liêm",
         company: "Thăng Long",
@@ -219,6 +243,7 @@ const employeeData = [
       },
       {
         id: 25,
+        no: 25,
         avatar : avatar,
         name:  "Nguyễn Thị Liêm",
         company: "Thăng Long",
@@ -228,6 +253,7 @@ const employeeData = [
       },
       {
         id: 26,
+        no: 26,
         avatar : avatar,
         name:  "Nguyễn Thị Liêm",
         company: "Thăng Long",
@@ -237,6 +263,7 @@ const employeeData = [
       },
       {
         id: 27,
+        no: 27,
         avatar : avatar,
         name:  "Nguyễn Hữu Hoàn",
         company: "Thăng Long",

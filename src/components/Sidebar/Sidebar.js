@@ -19,7 +19,7 @@ const Sidebar = ({ isSidebarOpen }) => {
               to={item.path} 
               className={({ isActive }) => (isActive ? 'active-link' : 'sidebar-link')}
             >
-              <span>{item.title}</span> 
+              <span className='font-bold'>{item.title}</span> 
               <span className="icon">{item.icon}</span>
             </NavLink>
           </li>

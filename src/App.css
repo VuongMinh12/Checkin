@@ -21,13 +21,18 @@
 }
 
 .router {
-    margin: 5px 10px 0px 10px; 
+    margin: 5px 20px 0px 10px; 
     height: calc(99vh - 48px); /* Giảm chiều cao nếu có Header */
     overflow-y: auto;
+    
 }
 
 .router-full {
-    margin: auto;
-    width: 90%;
-    height: 100%; /* Đảm bảo chiều cao chiếm hết phần còn lại */
+    margin: 7px 20px 0px 60px;
+    width: 95%;
+    height: calc(99vh - 48px); /* Đảm bảo chiều cao chiếm hết phần còn lại */
+}
+
+.font-bold {
+    font-weight: 600;
 }

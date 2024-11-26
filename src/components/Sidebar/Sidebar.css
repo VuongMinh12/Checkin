@@ -4,20 +4,20 @@
   left: 0;
   height: fit-content; 
   width: 220px; 
-  transition: 0.3s ease;
+  /* transition: 0.3s ease; */
   z-index: 999;
 }
 
 .sidebar-closed {
   width: 0;
-  transition: 0.3s ease;
+  /* transition: 0.3s ease; */
   overflow: hidden;
 }
 
 .sidebar .logo img {
   width: 220px;
   height: 48px;
-  object-fit: cover; /* Phủ ảnh vào khung, có thể cắt bớt */
+  object-fit: cover; 
 }
 
 .sidebar-menu {
@@ -31,8 +31,8 @@
 .sidebar-menu li {
   display: flex;
   align-items: center;
-  padding: 13px 13px;
-  transition: background-color 0.2s;
+  padding: 13px 12px;
+  /* transition: background-color 0.2s; */
 }
 
 .sidebar-menu li a.active-link {
@@ -42,7 +42,7 @@
 .sidebar-menu li a {
   text-decoration: none;
   color: #333; 
-  font-size: 18px;
+  font-size: 15px;
   display: flex;
   align-items: baseline;
   width: 100%; /* Đảm bảo clickable toàn bộ hàng */
@@ -50,7 +50,7 @@
 
 .sidebar-menu li .icon {
   margin-left: auto; 
-  font-size: 21px;
+  font-size: 19px;
   
 }
 
