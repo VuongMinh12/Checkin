@@ -1,7 +1,7 @@
 // src/components/Sidebar/Sidebar.js
 import React from 'react';
 import { SidebarData } from './SidebarData';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Sidebar.css'; // Đảm bảo file CSS có đầy đủ style
 import Logo from '../../assets/1637381601.png'
 
@@ -15,10 +15,13 @@ const Sidebar = ({ isSidebarOpen }) => {
       <ul className="sidebar-menu">
         {SidebarData.map((item, index) => (
           <li key={index} >
-            <Link to={item.path}>
-              <span><b>{item.title}</b></span> 
+             <NavLink 
+              to={item.path} 
+              className={({ isActive }) => (isActive ? 'active-link' : 'sidebar-link')}
+            >
+              <span>{item.title}</span> 
               <span className="icon">{item.icon}</span>
-            </Link>
+            </NavLink>
           </li>
         ))}
       </ul>

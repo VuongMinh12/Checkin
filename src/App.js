@@ -18,7 +18,7 @@ function App() {
         
         <div className={isSidebarOpen ? 'content-bar' : 'content'}>
           <Header toggleSidebar = {toggleSidebar}/>
-            <div className="router">
+            <div  className={isSidebarOpen ? 'router' : 'router-full'}>
               <AppRouter />
             </div>
         </div>

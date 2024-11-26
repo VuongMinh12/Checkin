@@ -1,0 +1,35 @@
+.notLogin-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .notLogin-controls {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+  
+  .notLogin-button {
+    border: 2px solid rgb(248, 112, 62);
+    color: rgb(238, 71, 11);
+    background-color: #f8f8f8;
+    padding: 2px 5px 5px 5px;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: x-small;
+    
+  }
+  
+  .notLogin-button:disabled {
+    color: #9b9191;
+    cursor: not-allowed;
+  }
+
+  .notLogin-button:hover:not(:disabled) {
+    background-color: #e0e0e0;
+  } 
+
+  

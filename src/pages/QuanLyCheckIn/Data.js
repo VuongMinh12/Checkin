@@ -1,7 +1,10 @@
+import avatar from "../../assets/istockphoto-1337144146-612x612.jpg"
+
 const employeeData = [
     {
       id: 1,
-      name: "Đặng Mạnh Hùng",
+      avatar : avatar,
+      name:  "Đặng Mạnh Hùng",
       company: "Thăng Long",
       department: "R & D Center",
       time: "8:30",
@@ -9,7 +12,8 @@ const employeeData = [
     },
     {
       id: 2,
-      name: "Phạm Thị Liên",
+      avatar : avatar,
+      name:  "Phạm Thị Liên",
       company: "Thăng Long",
       department: "TTCN mới",
       time: "8:36",
@@ -17,7 +21,8 @@ const employeeData = [
     },
     {
       id: 3,
-      name: "Nguyễn Thị Nhung",
+      avatar : avatar,
+      name:  "Nguyễn Thị Nhung",
       company: "Thăng Long",
       department: "Hành chính nhân sự",
       time: "8:39",
@@ -25,7 +30,8 @@ const employeeData = [
     },
     {
       id: 4,
-      name: "Trần Thị Quỳnh Anh",
+      avatar : avatar,
+      name:  "Trần Thị Quỳnh Anh",
       company: "Thăng Long",
       department: "Quản lý dự án",
       time: "8:40",
@@ -33,7 +39,8 @@ const employeeData = [
     },
     {
       id: 5,
-      name: "Đỗ Ngọc Hoàng",
+      avatar : avatar,
+      name:  "Đỗ Ngọc Hoàng",
       company: "Thăng Long",
       department: "TTCN mới",
       time: "9:30",
@@ -41,7 +48,8 @@ const employeeData = [
     },
     {
       id: 6,
-      name: "Lê Thị Thùy Linh",
+      avatar : avatar,
+      name:  "Lê Thị Thùy Linh",
       company: "Thăng Long",
       department: "Pháp chế đấu thầu",
       time: "9:36",
@@ -49,7 +57,8 @@ const employeeData = [
     },
     {
       id: 7,
-      name: "Bùi Nguyễn Hải Anh",
+      avatar : avatar,
+      name:  "Bùi Nguyễn Hải Anh",
       company: "Thăng Long",
       department: "TTCN mới",
       time: "9:45",
@@ -57,7 +66,8 @@ const employeeData = [
     },
     {
       id: 8,
-      name: "Phạm Văn Minh",
+      avatar : avatar,
+      name:  "Phạm Văn Minh",
       company: "Thăng Long",
       department: "TTCN mới",
       time: "9:50",
@@ -65,7 +75,8 @@ const employeeData = [
     },
     {
       id: 9,
-      name: "Nguyễn Thị Liêm",
+      avatar : avatar,
+      name:  "Nguyễn Thị Liêm",
       company: "Thăng Long",
       department: "TTCN mới",
       time: "9:55",
@@ -73,7 +84,8 @@ const employeeData = [
     },
     {
       id: 10,
-      name: "Nguyễn Hữu Hoàn",
+      avatar : avatar,
+      name:  "Nguyễn Hữu Hoàn",
       company: "Thăng Long",
       department: "TTCN mới",
       time: "10:30",
@@ -81,7 +93,8 @@ const employeeData = [
     },
     {
         id: 11,
-        name: "Nguyễn Thế Anh",
+        avatar : avatar,
+        name:  "Nguyễn Thế Anh",
         company: "Thăng Long",
         department: "TTCN mới",
         time: "80:30",
@@ -89,7 +102,8 @@ const employeeData = [
       },
       {
         id: 12,
-        name: "Vương Công Minh",
+        avatar : avatar,
+        name:  "Vương Công Minh",
         company: "Thăng Long",
         department: "R & D Center",
         time: "18:15",
@@ -97,7 +111,8 @@ const employeeData = [
       },
       {
         id: 13,
-        name: "Nguyễn Thị Liêm",
+        avatar : avatar,
+        name:  "Nguyễn Thị Liêm",
         company: "Thăng Long",
         department: "TTCN mới",
         time: "9:55",
@@ -105,7 +120,8 @@ const employeeData = [
       },
       {
         id: 14,
-        name: "Nguyễn Thị Liêm",
+        avatar : avatar,
+        name:  "Nguyễn Thị Liêm",
         company: "Thăng Long",
         department: "TTCN mới",
         time: "9:55",
@@ -113,7 +129,8 @@ const employeeData = [
       },
       {
         id: 15,
-        name: "Nguyễn Thị Liêm",
+        avatar : avatar,
+        name:  "Nguyễn Thị Liêm",
         company: "Thăng Long",
         department: "TTCN mới",
         time: "9:55",
@@ -121,7 +138,8 @@ const employeeData = [
       },
       {
         id: 16,
-        name: "Nguyễn Thị Liêm",
+        avatar : avatar,
+        name:  "Nguyễn Thị Liêm",
         company: "Thăng Long",
         department: "TTCN mới",
         time: "9:55",
@@ -129,7 +147,8 @@ const employeeData = [
       },
       {
         id: 17,
-        name: "Nguyễn Thị Liêm",
+        avatar : avatar,
+        name:  "Nguyễn Thị Liêm",
         company: "Thăng Long",
         department: "TTCN mới",
         time: "9:55",
@@ -137,7 +156,8 @@ const employeeData = [
       },
       {
         id: 18,
-        name: "Nguyễn Thị Liêm",
+        avatar : avatar,
+        name:  "Nguyễn Thị Liêm",
         company: "Thăng Long",
         department: "TTCN mới",
         time: "9:55",
@@ -145,7 +165,8 @@ const employeeData = [
       },
       {
         id: 19,
-        name: "Nguyễn Thị Liêm",
+        avatar : avatar,
+        name:  "Nguyễn Thị Liêm",
         company: "Thăng Long",
         department: "TTCN mới",
         time: "9:55",
@@ -153,7 +174,8 @@ const employeeData = [
       },
       {
         id: 20,
-        name: "Nguyễn Thị Liêm",
+        avatar : avatar,
+        name:  "Nguyễn Thị Liêm",
         company: "Thăng Long",
         department: "TTCN mới",
         time: "9:55",
@@ -161,7 +183,8 @@ const employeeData = [
       },
       {
         id: 21,
-        name: "Nguyễn Thị Liêm",
+        avatar : avatar,
+        name:  "Nguyễn Thị Liêm",
         company: "Thăng Long",
         department: "TTCN mới",
         time: "9:55",
@@ -169,7 +192,8 @@ const employeeData = [
       },
       {
         id: 22,
-        name: "Nguyễn Thị Liêm",
+        avatar : avatar,
+        name:  "Nguyễn Thị Liêm",
         company: "Thăng Long",
         department: "TTCN mới",
         time: "9:55",
@@ -177,7 +201,8 @@ const employeeData = [
       },
       {
         id: 23,
-        name: "Nguyễn Thị Liêm",
+        avatar : avatar,
+        name:  "Nguyễn Thị Liêm",
         company: "Thăng Long",
         department: "TTCN mới",
         time: "9:55",
@@ -185,7 +210,8 @@ const employeeData = [
       },
       {
         id: 24,
-        name: "Nguyễn Thị Liêm",
+        avatar : avatar,
+        name:  "Nguyễn Thị Liêm",
         company: "Thăng Long",
         department: "TTCN mới",
         time: "9:55",
@@ -193,7 +219,8 @@ const employeeData = [
       },
       {
         id: 25,
-        name: "Nguyễn Thị Liêm",
+        avatar : avatar,
+        name:  "Nguyễn Thị Liêm",
         company: "Thăng Long",
         department: "TTCN mới",
         time: "9:55",
@@ -201,7 +228,8 @@ const employeeData = [
       },
       {
         id: 26,
-        name: "Nguyễn Thị Liêm",
+        avatar : avatar,
+        name:  "Nguyễn Thị Liêm",
         company: "Thăng Long",
         department: "TTCN mới",
         time: "9:55",
@@ -209,7 +237,8 @@ const employeeData = [
       },
       {
         id: 27,
-        name: "Nguyễn Hữu Hoàn",
+        avatar : avatar,
+        name:  "Nguyễn Hữu Hoàn",
         company: "Thăng Long",
         department: "TTCN mới",
         time: "10:30",

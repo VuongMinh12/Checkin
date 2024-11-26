@@ -1,15 +1,11 @@
 .app-container{
     display: flex;
-    height: 90vh;
+    height: 100vh;
 }
 
-.sidebar {
-    width: 220px;
-}
 .content-bar {
     flex-grow: 1;
-    margin-left: 220px;
-    width: calc(100% - 230px);  /* Thu fix lai render  */
+    width: 1,680;  /* Thu fix lai render  */
     transition: margin-left 0.3s ease;
 }
 
@@ -19,6 +15,9 @@
     transition: margin-left 0.3s ease;
 }
 .router {
-    margin: 20px 10px 10px 10px;
-    
+    margin: 5px 10px 0px 10px; 
+}
+.router-full {
+    margin: auto;
+    width: 90%;
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PiUserListLight } from "react-icons/pi";
+import { PiUserList } from "react-icons/pi";
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { LuCalendarCheck2 } from "react-icons/lu";
 export const SidebarData = [
@@ -14,8 +14,8 @@ export const SidebarData = [
     icon: <IoDocumentTextOutline />,
   },
   {
-    title: 'Danh sách nhân viên',
+    title: 'Danh sách nhân viên ',
     path: '/danhsachnhanvien',
-    icon: <PiUserListLight />,
+    icon: <PiUserList />,
   },
 ];
