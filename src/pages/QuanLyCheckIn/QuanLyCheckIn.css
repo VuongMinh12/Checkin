@@ -1,13 +1,13 @@
 html, body {
   margin: 0;
   padding: 0;
-  height: 100%; /* Đảm bảo chiều cao của toàn bộ trang */
-  overflow: hidden; /* Ngừng cuộn toàn bộ trang */
+  height: 100%;
 }
 .checkin {
-    padding: 5px 15px 0px 30px;
-    background-color: rgb(233, 232, 247);
-    border-radius: 10px;
+  padding: 5px 15px 0px 30px;
+  background-color: rgb(233, 232, 247);
+  border-radius: 10px;
+  min-height: 100%;
 }
 
 .monitor-header {
@@ -143,6 +143,7 @@ html, body {
   flex: 1;
   border-radius: 4px;
   overflow: hidden;
+  min-height: 0;
 }
 
 .stranger {
@@ -169,9 +170,11 @@ html, body {
 .container {
   background-color: #fff;
   min-width: 1350px !important;
-  margin-left: 0px !important;
+  margin: 0px !important;
   border-radius: 4px;
   overflow: hidden;
+  height: 100%;
+  
 }
 
 

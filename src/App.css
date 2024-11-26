@@ -1,23 +1,33 @@
-.app-container{
+/* App.css */
+.app-container {
     display: flex;
-    height: 100vh;
+    height: 100vh; /* Đảm bảo container chính luôn có chiều cao 100vh */
+    overflow: hidden; /* Tránh overflow ngoài màn hình */
 }
 
 .content-bar {
     flex-grow: 1;
-    width: 1,680;  /* Thu fix lai render  */
     transition: margin-left 0.3s ease;
+    height: 100vh; /* Đảm bảo chiều cao đúng */
+    overflow-y: auto; /* Nếu cần, cho phép scroll dọc trong phần content */
 }
 
 .content {
     flex-grow: 1;
     margin-left: 0px;
     transition: margin-left 0.3s ease;
+    height: 100vh; /* Đảm bảo chiều cao đúng */
+    overflow-y: auto; /* Nếu cần, cho phép scroll dọc trong phần content */
 }
+
 .router {
     margin: 5px 10px 0px 10px; 
+    height: calc(99vh - 48px); /* Giảm chiều cao nếu có Header */
+    overflow-y: auto;
 }
+
 .router-full {
     margin: auto;
     width: 90%;
+    height: 100%; /* Đảm bảo chiều cao chiếm hết phần còn lại */
 }

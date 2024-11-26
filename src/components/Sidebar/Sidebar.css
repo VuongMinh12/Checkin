@@ -2,8 +2,8 @@
 
 .sidebar {
   left: 0;
-  height: 100vh; 
-  width: 240px; 
+  height: fit-content; 
+  width: 220px; 
   transition: 0.3s ease;
   z-index: 999;
 }
@@ -15,7 +15,7 @@
 }
 
 .sidebar .logo img {
-  width: 240px;
+  width: 220px;
   height: 48px;
   object-fit: cover; /* Phủ ảnh vào khung, có thể cắt bớt */
 }
@@ -25,7 +25,7 @@
   padding-left: 5px;
   border-right: 2px outset rgba(194, 194, 194, 0.582);
   border-top: 2px outset rgba(194, 194, 194, 0.582);
-  height: 100vh;
+  height: calc(100vh - 48px);
 }
 
 .sidebar-menu li {

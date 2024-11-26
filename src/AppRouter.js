@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import QuanLyCheckIn from './pages/QuanLyCheckIn/QuanLyCheckIn';
 import BaoCao from './pages/BaoCao';
-import DanhSachNhanVien from './pages/DanhSachNhanVien';
+import DanhSachNhanVien from './pages/DanhSachNhanVien/DanhSachNhanVien';
 
 const AppRouter = () => {
   return (

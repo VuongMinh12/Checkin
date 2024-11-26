@@ -60,6 +60,7 @@ function QuanLyCheckIn() {
               <option disabled={true} value="">
                 Công ty
               </option>
+              <input className="form-control" />
               <option value="Chon">Chọn</option>
               <option value="ThangLong">Thăng Long</option>
             </select>
@@ -156,7 +157,7 @@ function QuanLyCheckIn() {
             ))}
 
             {/* Footer (Pagination) */}
-            <div className="row">
+            <div className="row" style={{marginTop : "10px" , paddingBottom : "5px"}}>
               <div className="col-12">
                 <Pagination
                   pageNumber={pageNumber}
@@ -193,7 +194,7 @@ function QuanLyCheckIn() {
             <div
               style={{
                 width: "250px",
-                height: "370px",
+                height: "385px",
                 backgroundColor: "#fff",
                 borderRadius: "6px",
                 overflow: "hidden", // Giữ nội dung không vượt ra ngoài
